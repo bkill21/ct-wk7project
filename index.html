@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js" defer></script>
+    <script src="./app.js" defer></script>
+    <title>Weather API</title>
+</head>
+
+<body>
+    <div class="card">
+        <header>
+            <h2>Check Weather in Major Cities</h2>
+        </header>
+        <main>
+            <form id="searchForm">
+                <input type="text" placeholder="City, State/Country" name="query">
+                <button>Search City</button>
+            </form>
+            <article>
+                <p id="temperature"></p>
+                <p id="humidity"></p>
+                <p id="windspeed"></p>
+            </article>
+            <p id="description"></p>
+        </main>
+    </div>
+</body>
+
+</html>
